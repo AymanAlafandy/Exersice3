@@ -10,18 +10,16 @@ namespace ConsoleApplication1
     {
        
         public void SetAge(Person pers, int age)
-            
-           
         {
             pers.Age=age;
         }
 
-        public Person CreatePerson(int age, string fname, string lname, float height, float weight)
+        public Person CreatePerson(int age, string fname, string lname, double height, double weight)
         {
             Person person = new Person();
             person.LName = lname;
             person.FName = fname;
-            person.Age = age;
+            person.Age = age; 
             person.Height = height;
             person.Weight = weight;
             return person;

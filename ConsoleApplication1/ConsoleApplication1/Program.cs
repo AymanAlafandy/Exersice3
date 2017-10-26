@@ -15,14 +15,14 @@ namespace ConsoleApplication1
         }
             private static void AddPerson()
             {
-            Person person = new Person();
+            //Person person = new Person();
             Console.Write("FName: ");
             var FName = Console.ReadLine();
             if (string.IsNullOrEmpty(FName))
             {
                // return false;
             }
-            Console.Write("LName: ");
+            Console.Write("LName: "); 
             var LName = Console.ReadLine();
             if (string.IsNullOrEmpty(LName))
             {
@@ -37,18 +37,19 @@ namespace ConsoleApplication1
             }
             Console.Write("Height: ");
             string Height =Console.ReadLine();
-           float height0 = 0;
-            if (!float.TryParse(Height, out height0))
+            double height0 = 0;
+            if (!double.TryParse(Height, out height0))
             {
                 Console.WriteLine("Height? Height could not be parsed");
             }
             Console.Write("Weight: ");
             string Weight = Console.ReadLine();
-            float weight0 = 0;
-            if (!float.TryParse(Weight, out weight0))
+            double weight0 = 0;
+            if (!double.TryParse(Weight, out weight0))
             {
                 Console.WriteLine("Weight? Weight could not be parsed");
             }
+
             PersonHandler pershand = new PersonHandler();
             pershand.CreatePerson(age0, FName, LName, height0, weight0);
           
