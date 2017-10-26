@@ -8,13 +8,18 @@ namespace ConsoleApplication1
 {
     public class PersonHandler
     {
-        Person person = new Person();
 
 
         public Person CreatePerson(int age , string fName,
-            string lName, double height , double Weight)
+            string lName, double height , double weight)
         {
-            return new Person(); //i get a help.
+        Person person = new Person();
+            person.Age = age;
+            person.FName = fName;
+            person.LName = lName;
+            person.Height = height;
+            person.Weight = weight;
+            return person;
         }
 
 

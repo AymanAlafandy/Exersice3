@@ -17,7 +17,6 @@ namespace ConsoleApplication1
         }
         //
         private string fName;
-
         public string FName
         {
             get { return fName; }
