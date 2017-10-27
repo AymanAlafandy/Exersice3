@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ConsoleApplication1
 {
-    class Flamingo:Bird
+    public class Flamingo:Bird
     {
         private string graciousness;
         private float height;

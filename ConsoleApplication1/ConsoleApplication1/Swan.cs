@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ConsoleApplication1
 {
-    class Swan:Bird
+    public class Swan:Bird
     {
         private string sbeauty;
         private float lenght;

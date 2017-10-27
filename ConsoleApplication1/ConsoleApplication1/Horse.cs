@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ConsoleApplication1
 {
-    class Horse:Animal
+    public class Horse:Animal
     {
         private int strenght;
         private float length;
@@ -33,6 +33,9 @@ namespace ConsoleApplication1
                 length = value;
             }
         }
-
+        public override string Stats()
+        {
+            return base.Stats();
+        }
     }
 }

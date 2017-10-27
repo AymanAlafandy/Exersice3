@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ConsoleApplication1
 {
-    class Hedgehog
+    public class Hedgehog: Animal
     {
         private int noOfSpikes;
         private float spead;
@@ -32,6 +32,10 @@ namespace ConsoleApplication1
             {
                 spead = value;
             }
+        }
+        public override string Stats()
+        {
+            return base.Stats();
         }
     }
 }

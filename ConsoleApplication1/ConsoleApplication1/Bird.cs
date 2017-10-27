@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ConsoleApplication1
 {
-    class Bird:Animal
+   public class Bird:Animal
     {
         private float wingspan;
         private float flyspeed;
@@ -33,6 +33,9 @@ namespace ConsoleApplication1
                 flyspeed = value;
             }
         }
-
+        public override string Stats()
+        {
+            return base.Stats();
+        }
     }
 }

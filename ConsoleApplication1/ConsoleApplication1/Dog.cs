@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ConsoleApplication1
 {
-    class Dog:Animal
+     public class Dog:Animal
     {
         private string smell;
         private float intelligence;
@@ -33,6 +33,13 @@ namespace ConsoleApplication1
                 intelligence = value;
             }
         }
-
+        public override string Stats()
+        {
+            return base.Stats();
+        }
+        public virtual string Speak()
+        {
+            return "Wolf";
+        }
     }
 }

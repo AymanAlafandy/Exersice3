@@ -76,7 +76,10 @@ namespace ConsoleApplication1
                    "\nYour weight is " + Weight + "nYour age is" + Age + ".";
         }
         //Animal anim = new Animal ("Buby", "red", 3,89, 3);
-
+        //Animal anim = new Animal("Buby", "red", 3, 89, 3);
+        //Horse horse = new Horse("Blacky", "black", 7, 89, 8);
+        //Dog dog = new Dogs("Buby", "red", 3, 89, 3);
+        //Bird bird = new Bird("", "", 4, 5);
         //3.2) Q 8. Bird
         //3.2) Q 9. Animal
     }

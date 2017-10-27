@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ConsoleApplication1
 {
-    class Pelican:Bird
+    public class Pelican:Bird
     {
         private string beak;
         private float leglenght;

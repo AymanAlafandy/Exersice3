@@ -6,13 +6,14 @@ using System.Threading.Tasks;
 
 namespace ConsoleApplication1
 {
-    class Person
+    public class Person
     {
         private int age; 
         private string fName; 
         private string lName; 
         private double height; 
         private double weight; 
+
 
         public int Age
         {

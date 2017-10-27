@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ConsoleApplication1
 {
-    class PersonHandler
+   public class PersonHandler
     {
        
         public void SetAge(Person pers, int age)
@@ -42,7 +42,7 @@ namespace ConsoleApplication1
         //    var result = "";
         //    foreach (var person in list)
 	       // {
-        //     result += person + "n";
+        //     result += person + "\n";
         //    }
         //return result;
 
